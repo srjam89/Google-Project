@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    margin: 0 0;
+    padding: 0 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+main {
+    text-align:center;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 450px;
+    height: 500px;;
+    border: 1px solid #dfe1e5;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.box {
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    overflow: hidden;
+    margin-top: 35px;
+}
+
+.sign {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.3333;
+    margin: 0;
+    margin-top: 8px;
+}
+
+.instructions {
+    letter-spacing: 0.1px;
+    line-height: 1.5;
+    margin: 0;
+    padding-top: 8px;
+    font-weight: 400;
+}
+
+form {
+    padding-top: 28px;
+}
+
+input[type=email] {
+    width: 370px;
+    height: 55px;
+    padding: 13px 15px;
+    border: 1px solid #dfe1e5;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #1a73e8;
+}
+
+.forgot {
+    font-size: 14px;
+    text-align: left;
+    margin-left: 38px;
+}
+
+.forgot a {
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 0.25px;
+    color: #1a73e8;
+}
+
+.guest {
+    text-align: left;
+    margin-left: 38px;
+    margin-top: 45px;
+}
+
+.guest a {
+    text-decoration: none;
+    color: #1a73e8;
+    font-weight: 500;
+    letter-spacing: 0.25px;
+    font-size: 14px;
+}
+
+.guest1 {
+    font-size: 14px;
+    color: #5f6368;
+    margin-bottom: 5px;
+}
+
+.account {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.create {
+    float: left;
+    padding: 10px 10px;
+    margin-top: 0;
+}
+
+.create:hover {
+    background-color: #dfe1e5;
+}
+
+.create a {
+    color: #1a73e8;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+}
+
+.btn {
+   float: right;
+   background-color: #1a73e8;
+   margin-right: 40px;
+   padding: 5px 10px;
+   box-shadow: none;
+   width: 79px;
+   height: 37px;
+   border-radius: 5px;
+   border: none;
+}
+
+.btn:hover {
+    background-color: #0a58be;
+}
+
+.btn a {
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 0.25px;
+}
+
+/* footer */
+
+footer {
+    position: absolute;
+    bottom: 120px;
+    display: flex;
+    left: 495px;
+    width: 450px;
+}
+
+.info {
+    margin-left: 132px;
+}
+
+span {
+    padding-left: 16px;
+    padding-right: 16px;
+    color: #757575;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#countries {
+    border: none;
+}

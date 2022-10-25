@@ -1,0 +1,292 @@
+* {
+    box-sizing: border-box;
+    margin: 0 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0 0;
+    padding: 0 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header {
+    height: 65px;
+}
+
+.flex-container img {
+    width: 50px;
+    height: 32px;
+    padding-right: 20px;
+}
+
+.about a {
+    padding-left: 25px;
+    color: black;
+    text-decoration: none;
+    font-size: 0.9rem;
+    letter-spacing: 0.25px;
+}
+
+.store a {
+    padding-left: 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 0.9rem;
+    letter-spacing: 0.25px;
+}
+nav {
+    text-align: right;
+    flex-grow: 1;
+    padding-right: 20px; 
+}
+
+nav span {
+    padding-left: 8px;
+    font-size: 0.80rem;
+}
+
+.list-group a {
+    text-decoration: none;
+    color:black;
+}
+
+.btn-sign-in {
+    background-color: #1A73E8;
+    color: white;
+    width: 100px;
+    height: 36px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.25px;
+    margin-right: 20px;
+}
+
+.btn-sign-in a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-sign-in:hover {
+    cursor: pointer;
+    background-color: #809bf1;
+}
+
+.logo-container {
+    padding-top: 150px;
+    padding-bottom: 20px;
+}
+
+.logo {
+    height:92px;
+}
+
+input[type=search] {
+    width: 550px;
+    padding: 15px;
+    height: 44px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    z-index: 3;
+}
+
+input:hover {
+    box-shadow: 0 1px 6px rgb(32 33 36 / 20%);
+    border-color: rgba(223, 225, 229, 0);
+}
+
+input:focus {
+    outline: none;
+}
+
+.btn-container {
+    padding: 25px 0px 0px;
+    width: 455px 70px;
+    margin-right: 40px;
+}
+
+.btn {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 130px;
+    height: 36px;
+    color: #3c403c;
+    text-decoration: none;
+}
+
+.btn:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    border: 1px solid #dadce0;
+}
+
+.lucky-btn {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    font-size: 14px;
+    min-width: 130px;
+    width: auto;
+    height: 36px;
+    margin-left: 10px;
+    color: #222;
+}
+
+.lucky-btn:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    border: 1px solid #dadce0;
+    width: auto;
+}
+
+.lucky-btn::after {
+    width: auto;
+}
+
+footer {
+    color: rgba(0, 0, 0, 0.54);
+    background-color: #eeeaeafd;
+    position: absolute; 
+    bottom: 0;
+    height: auto;
+    width: 100%;
+}
+
+.country {
+    border-bottom:1px solid #dadcd0;
+}
+
+.country h3 {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 100;
+    padding: 15px 30px;
+}
+
+#info {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.carbon a {
+    font-size: 14px;
+    font-weight: 100;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.carbon a:hover {
+    text-decoration: underline;
+}
+
+.center {
+    flex-grow: 1; 
+}
+
+.carbon-img {
+    width: 12.25px;
+    height: 14px;
+}
+
+.advertising a {
+    font-size: 14px;
+    font-weight: 100;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.54);
+    padding-right: 20px;
+}
+
+.advertising a:hover {
+    text-decoration: underline;
+}
+
+.business a {
+    font-size: 14px;
+    font-weight: 100;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.54);
+    padding-right: 20px;
+}
+
+.business a:hover {
+    text-decoration: underline;
+}
+
+.how-search a {
+    font-size: 14px;
+    font-weight: 100;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.how-search a:hover {
+    text-decoration: underline;
+}
+
+.left {
+    display: flex;
+    
+}
+
+.privacy a {
+    font-size: 14px;
+    font-weight: 100;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.privacy a:hover {
+    text-decoration: underline;
+}
+
+.terms a {
+    font-size: 14px;
+    font-weight: 100;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.54);
+    padding-left: 20px;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
+
+.settings a {
+    font-size: 14px;
+    font-weight: 100;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.54);
+    padding-left: 20px;
+}
+
+.settings a:hover {
+    text-decoration: underline;
+}
+
+.right {
+    display: flex;
+    
+}
+
+
+@media screen and (max-width: 812px) {
+    
+}
